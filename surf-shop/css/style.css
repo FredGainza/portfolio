@@ -1,0 +1,286 @@
+/* ------- GENERAL ----- */
+
+body{
+	margin: 0 auto;
+	font-family: league, serif;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.container-fluid {width: 100%;}
+
+
+
+
+/* ------- STRUCTURE ----- */
+
+nav ul li {
+	position: relative;
+	list-style-type: none;
+	left: 120px;
+	float: left;
+	margin-right: 20px;
+	font-size: 12px
+}
+
+
+
+/* ------- POSITIONNEMENT ----- */
+
+.fl {float: left;}
+.fr {float: right;}
+
+.rel {position: relative;}
+.abs {position: absolute;}
+
+.txt-up {
+	top: 130px;
+	right: 600px;
+	left: 0;
+}
+
+.img-dessus {
+	top: 60px;
+	right:0;
+}
+
+.rect-grey {
+	width: 200px;
+	height: 300px;
+	background-color: lightgrey;
+	left: 15px;
+	z-index: -1;
+	top: 150px;
+}
+
+.text-board {
+	top: 220px;
+	left: 200px;
+}
+
+.txt-illus-1 {
+	width: 432px;
+	left: 0;
+	top: 60px;
+}
+
+.txt-illus-2 {
+	width: 432px;
+	right: 0;
+	top: 80px;
+}
+
+.txt-illus-3 {
+	width: 430px;
+	right: 0;
+	top: 200px;
+}
+
+.txt-illus-corps {
+	margin-top: 40px;
+	margin-bottom: 15px;
+	margin-right: 40px;
+	font-weight: lighter;
+}
+
+
+
+
+/* ------- TAILLES ----- */
+
+.row {width: 100%;}
+.taille {width: 1200px;}
+
+.w-100 {width: 100%;}
+.w-85 {width: 85%;}
+.w-50 {width: 50%;}
+.w-33 {width: 33%;}
+.w-30 {width: 30%;}
+
+.w-570-px {width: 570px;}
+.w-600-px {width: 600px;}
+
+
+
+
+
+/* ------- MARGIN PADDING ----- */
+
+.m-top-20 {margin-top: 20px}
+.m-top-50 {margin-top: 50px;}
+.m-top-150 {margin-top: 150px;}
+.m-top-350 {margin-top: 350px;}
+
+.m-right-0 {margin-right: 0;}
+
+.m-bot-10 {margin-bottom: 10px;}
+.m-bot-20 {margin-bottom: 20px;}
+.m-bot-50 {margin-bottom: 50px;}
+.m-bot-80 {margin-bottom: 80px;}
+
+.m-left-30 {margin-left: 30px;}
+.m-left-230 {margin-left: 230px;}
+.m-left-300 {margin-left: 300px;}
+.m-left-310 {margin-left: 310px;}
+.m-left-400 {margin-left: 400px;}
+
+.r-mp-bt {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.r-mp {
+	margin: 0;
+	padding: 0;
+}
+
+.r-mp-sp {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 5px;
+}
+
+.r-mp-sp2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 20px;
+}
+
+
+
+
+/* ----- FONTS ----- */
+
+@font-face {
+	font-family: league;
+	src: url(../font/LeagueSpartan-Bold.otf);
+}
+
+.ff-fair {
+	font-family: 'Playfair Display', serif;
+	font-weight: bolder;
+}
+
+
+
+
+/* ------- TEXTE ----- */
+
+.center {text-align: center;}
+
+.fs-50p {font-size: 50%;}
+.fs-80p {font-size: 80%;}
+.fs-200p {font-size: 200%;}
+
+.l-esp-120 {line-height: 120%;}
+.l-esp-150 {line-height: 150%;}
+.l-esp-200 {line-height: 200%;}
+
+.l-spacing-2 {letter-spacing: 2px;}
+.l-spacing-2-5 {letter-spacing: 2.5px;}
+
+h1 {letter-spacing: 5px;}
+
+.titre {
+	font-size: 55px;
+	font-weight: 300;
+}
+
+
+
+
+
+
+/* ------ GRAPHISME ----- */
+
+.ligne {
+	height: 80px;
+	width: 2px;
+	border-left: 2px solid #87a1f8;
+	left: 50%
+}
+
+.ligne-hz-1 {
+	height: 2px;
+	width: 25px;
+	margin-top:5px;
+	border-top: 2px solid #87a1f8;
+}
+
+.ligne-hz-2 {
+	height: 2px;
+	width: 70px;
+	border-top: 2px solid #87a1f8;
+	margin-top: 5px;
+}
+
+.ligne-hz-3 {
+	height: 2px;
+	width: 88px;
+	border-top: 2px solid #87a1f8;
+	margin-top: 5px;
+}
+
+input {
+	width: 568px;
+	height: 26px;
+	background-color: #f4f5f5;
+	border: 1px solid lightgrey;
+}
+
+input::placeholder {
+	font-weight: bold;
+	font-family: league, serif;
+	margin-left: 10px;
+}
+
+.icon {
+	width: 30px;
+	height: 30px;
+	background-color: #87a1f8;
+	border: 1px solid #87a1f8
+}
+
+
+
+/* ------- LIENS ----- */
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.envoi {
+	background-image: url(../img/icon-mail.png);
+	background-repeat: no-repeat;
+	width: 26px;
+	height: 30px;
+}
+
+
+/* ------- IMAGES ------ */
+
+
+
+
+
+
+/* ------- COULEURS ------*/
+
+.grey {color: grey;}
+.l-grey {color: lightgrey;}
+.blue {color: #87a1f8;}
+
+.shadow {box-shadow: -18px 5px 68px -15px rgba(0,0,0,0.48);}
+
+
+
+
+/* -------  ------ */

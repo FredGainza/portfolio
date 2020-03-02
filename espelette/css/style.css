@@ -1,0 +1,192 @@
+/* --- GENERAL --- */
+
+body{
+	margin: 0 auto;
+	font-family: 'Cherry Swash', cursive;
+}
+
+.container {
+	width: 980px;
+	margin: 0 auto;
+}
+
+
+
+/* --- WIDTH --- */
+
+.row {
+	width: 100%;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.w-60 {
+	width: 60%;
+}
+.w-50 {
+	width: 50%;
+}
+
+.w-45 {
+	width: 45%;
+}
+
+.w-33 {
+	width: 33.33%;
+}
+
+.w-33-m {
+	width: calc(33.33% - 25px);
+}
+
+.w-30 {
+	width: 30%;
+}
+
+.w-25 {
+	width: 25%;
+}
+
+
+
+/* --- POSITIONNEMENT --- */
+
+.float {
+	float: left;
+}
+
+.center {
+	text-align: center;
+}
+
+
+
+/* --- MISE EN FORME TEXTE --- */
+
+h1 {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.info h1 {
+	font-size: 14x;
+	margin-bottom: 20px;
+}
+
+.h-footer {
+	color: maroon;
+}
+
+.txt-chap {
+	text-align: justify;
+	line-height: 140%;
+	padding: 0 12.5px;
+}
+
+.txt-gen {
+	text-align: justify;
+	line-height: 110%;
+}
+
+
+
+/* --- MARGIN PADDIN --- */
+
+.marg-bot {
+	margin-bottom: 35px;
+}
+
+.pad-presentation {
+	padding: 20px;
+}
+
+.pad-village {
+	padding: 20px 0 20px 20px;
+	margin-right: 0;
+}
+
+.mag-r {
+	margin-right: 5%;
+}
+
+.mag-r-0 {
+	margin-right: 0;
+}
+
+.anim-p {
+	padding: 10px 0px 10px 25px;
+}
+
+
+
+/* --- NAVIGATION / MENU --- */
+
+nav {
+	margin-right: 40px;
+}
+
+nav ul li {
+	list-style-type: none;
+	height: 50px;
+	padding-top: 5px;
+}
+
+
+
+/* --- LIENS / ANCRES --- */
+
+.links a {
+	font-size: 30px;
+	color: #bf1408;
+	text-decoration: none;
+}
+
+a:hover {
+	color: green;
+	font-weight: bolder;
+	font-size: 32px;
+}
+
+a:visited {
+	color: #8e1114;
+}
+
+#presentation {
+	background-color: #b7b7b7;
+}
+
+#animation {
+	background-color: maroon;
+	color: white;
+	border-radius: 10px;
+}
+
+
+
+/* --- MISE EN FORME IMAGES --- */
+
+.shadow {
+	box-shadow: 6px 6px 8px 0px rgba(0,0,0,0.5);
+}
+
+
+
+/* --- BORDURES --- */
+
+.border-top {
+	border-top: 1px solid black;
+}
+
+.border-bot {
+	border-bottom: 1px solid black;
+}
+
+
+
+/* --- FOOTER --- */
+
+.footer {
+	background-color: #b7b7b7;
+}

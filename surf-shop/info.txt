@@ -1,0 +1,11 @@
+Font :
+
+https://fonts.google.com/specimen/Playfair+Display
+https://www.fontsquirrel.com/fonts/league-spartan
+
+Color :
+Bleu :   #5da8ef
+Noir : #333333
+
+
+container : 1400px

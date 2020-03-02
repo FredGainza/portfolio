@@ -1,0 +1,250 @@
+/* --- GENERAL --- */
+
+body {
+	margin: 0 auto;
+	font-family: 'Lato', sans-serif;
+	background-color: whitesmoke;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.container-fluid {
+	width: 100%;
+}
+
+
+
+/* --- TAILLE --- */
+
+.row {
+	width: 100%;
+}
+
+.taille {
+	width: 1200px;
+}
+
+.w-100 {
+	width: 100%
+}
+
+.w-70 {
+	width: 30%;
+}
+
+.w-50 {
+	width: 50%;
+}
+
+.w-33 {
+	width: 33%;
+}
+
+.w-30 {
+	width: 30%;
+}
+
+.w-25 {
+	width: 15%;
+}
+
+.vide {
+	height: 20px;
+}
+
+
+
+/* --- POSITIONNEMENT --- */
+
+.float-l {
+	float: left;
+}
+
+.float-r {
+	float: right;
+}
+
+
+
+
+/* --- MARGIN PADDING --- */
+
+.marg-top {
+    margin-top: 10px;
+    float: left;
+}
+
+.marg-top-20 {
+	margin-top: 30px;
+}
+
+.marg-top2 {
+    margin-top: 20px;
+}
+
+.marg-top3 {
+    margin-top: 50px;
+}
+
+.marg-bot {
+	margin-bottom: 10px;
+}
+
+.marg-bot-30 {
+	margin-bottom: 30px;
+}
+
+.marg-bot-60 {
+	margin-bottom: 60px;
+}
+
+.marg-l {
+	color: #DA9C64;
+}
+
+.marge-r-5 {
+	margin-right: 5%;
+}
+
+.marg-r {
+	padding-right: 20px;
+}
+
+
+
+/* --- LIENS --- */
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: 	#DA9C64;
+}
+
+nav ul li {
+	list-style-type: none;
+    padding-right: 32px;
+    float: left;
+}
+
+
+
+/* --- MISE EN PAGE TEXTE --- */
+
+h3 {
+	color: #DA9C64;
+}
+
+.center {
+	text-align: center;
+}
+
+.emphase {
+	font-style: italic;
+	color: gray;
+}
+
+.text-logo {
+	margin-top: 0;
+	font-weight: bold;
+}
+
+
+
+
+
+/* --- BORDURES --- */
+
+.border {
+	border: 1px solid gray;
+}
+
+.border-top {
+	border-top: 1px solid black;
+}
+
+
+
+/* --- COULEURS --- */
+
+.beige {
+	color: #DA9C64;
+	font-size: 25px;
+}
+
+.bck-c-w {
+	background-color: white;
+}
+
+
+
+/* --- IMAGES --- */
+
+.taille-img {
+	width: 400px;
+}
+
+#bck-img {
+	background-image: url(../img/home/532.png);
+	background-repeat: no-repeat;
+	background-color: rgba(0, 0, 0, 0.8);
+	background-size: 400px 150px;
+} 
+
+.shadow {
+	box-shadow: 5px -5px 57px -5px rgba(0,0,0,0.32);
+}
+
+
+
+
+
+
+/* --- FOOTER --- */
+
+.logo-footer {
+	height: 40px;
+}
+
+
+
+
+
+/* --- DIVERS --- */
+
+.cadre1 {
+	height: 150px;
+	background-color: rgba(239, 240, 227, 0.8);
+	padding-top: 30px;
+}
+
+.cadre2 {
+	height: 150px;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding-top: 30px;
+}
+
+.hr {
+	padding: 0 500px;
+}
+
+.carte ul{padding: 0;}
+
+.carte ul li{
+	color: #DA9C64;
+	list-style-type: none;
+	text-align: center;
+}
+
+
+
+
+
+
+
+

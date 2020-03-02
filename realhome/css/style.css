@@ -1,0 +1,149 @@
+/* ----- NAVIGATION ----- */
+
+nav li{list-style: none;}
+
+nav li a{
+	color: black;
+	text-decoration: none;
+}
+
+nav li a:hover{text-decoration: none;}
+
+
+
+/* ----- MARGIN PADDING ----- */
+
+.pad-0{padding: 0!important;}
+.pad-t-5p{padding-top: 3rem;}
+.padding: 0!important;
+
+/* ----- TEXTE ----- */
+
+.adress{font-size: 200%;}
+.ft-150{font-size:150%;}
+.ft-120{font-size:120%;}
+
+
+
+/* ----- COULEURS ----- */
+
+.blue{color:rgb(33, 117, 226);}
+.blanc{color: white;}
+
+
+
+/* ----- POSITIONNEMENT ----- */
+
+.h3-titre {
+	text-align: right;
+	float: right;
+}
+
+.partenairs{display: inline;}
+
+.form-nom{
+	width: 50%;
+	float: left;
+	padding-right: 1rem;
+}
+
+.form-mail{
+	width: 50%;
+	float: left;
+}
+
+.form-newsletter{width:50%;}
+
+
+
+/* ----- ELEMENTS GRAPHIQUES ----- */
+
+.line{
+	width: 50px;
+	height: 2px;
+	background-color: grey;
+}
+
+.line2{
+	width: 150px;
+	height: 2px;
+	background-color: rgb(33, 117, 226);
+	margin: auto;
+}
+.card-per{border: none;}
+.png-red {width: 3%}
+
+.blue.png{
+	color: rgb(33, 117, 226);
+	background-color: rgb(33, 117, 226);
+	border-color: rgb(33, 117, 226);
+	background-image: url(../img/07.png);
+}
+
+
+
+/* ----- MEDIA QUERRIES----- */
+
+@media (max-width: 767.98px){
+	.h3-titre {
+		text-align: center;
+	}
+	.resp-marg-b-5p {
+		margin-bottom: 5%;
+	}
+	.resp-marg-b-10p{
+		margin-bottom: 10%;
+	}
+	.resp-marg-b-20p{
+		margin-bottom: 20%;
+	}
+	.resp-marg-t-10p{
+		margin-top: 10%;
+	}
+	.resp-txt-center{
+		text-align: center;
+	}
+	.resp-pad-lr-5p{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.resp-flex-direc-row-reverse{
+		flex-direction: row-reverse;
+	}
+	
+	.resp-align-items-center{
+		align-items: center;
+	}
+	.resp-align-content-start{
+		align-content: flex-start;
+	}
+	.resp-pad-b-5p{
+		padding-bottom: 5%;
+	}
+	.pad-t-5p{
+		padding-top: 0;
+	}
+	.partenairs{
+		display: block;
+		margin: 0 auto;
+	}
+	.form-nom, .form-mail{
+		width: 100%;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.form-newsletter{
+		width: 100%;
+		padding-left: 25%;
+		padding-right: 25%;
+	}
+	.resp-hidden{
+		display: none;
+	}
+}
+
+@media (max-width: 998px){
+	.resp-hidden-998{
+		display: none;
+	}
+}
